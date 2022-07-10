@@ -170,10 +170,19 @@ files:
         }
     }
   learner_created: false
-- name: src/recipes/Recipe.java
+- name: src/resources/static/index.html
   visible: true
   learner_created: true
-- name: src/resources/static/index.html
+- name: src/recipes/recipe/RecipeService.java
+  visible: true
+  learner_created: true
+- name: src/recipes/recipe/Recipe.java
+  visible: true
+  learner_created: true
+- name: src/recipes/recipe/RecipeController.java
+  visible: true
+  learner_created: true
+- name: src/recipes/recipe/RecipeServiceInterface.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13088#comment
