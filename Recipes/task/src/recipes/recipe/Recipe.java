@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor(force = true)
+@NoArgsConstructor
 @RestController
 public class Recipe {
 

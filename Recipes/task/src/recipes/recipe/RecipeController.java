@@ -2,19 +2,12 @@ package recipes.recipe;
 
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
-@RequestMapping("recipe")
+//@RequestMapping("/api/recipe")
 public class RecipeController {
-
-    private RecipeService recipeService;
-
-    public RecipeController(RecipeService recipeService) { this.recipeService = recipeService; }
-
-    @PostMapping
-    public void postRecipe(@RequestBody Recipe recipe) { recipeService.postNewRecipe(recipe); }
-
-    @GetMapping()
-    public List<Recipe> list() { return recipeService.recipeList(); }
+    Recipe recipe;
+    @PostMapping("/api/recipe")
+    public void postRecipe(@RequestBody Recipe recipe) { this.recipe = recipe; }
+    @GetMapping("/api/recipe")
+    public Recipe getRecipe() { return recipe; }
 }
