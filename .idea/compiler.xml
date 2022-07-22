@@ -8,14 +8,55 @@
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../hyperskill/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
         </processorPath>
-        <module name="Recipes.Recipes-task.main" />
-        <module name="Recipes.util.test" />
+        <module name="Recipes.Recipes-task-build-classes-java.main" />
+        <module name="Recipes.Recipes-task-build-reports-tests.test" />
         <module name="Recipes.Recipes-task.test" />
+        <module name="Recipes.Recipes-task-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Recipes-task-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Recipes-task-build-tmp.test" />
+        <module name="Recipes.Recipes-task-build-classes-java.test" />
+        <module name="Recipes.Recipes-task-build-reports-tests.main" />
+        <module name="Recipes.Recipes-task-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.util.test" />
+        <module name="Recipes.Recipes-task-build-tmp.main" />
+        <module name="Recipes.Recipes-task-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Recipes-task-build-test-results.main" />
+        <module name="Recipes.Recipes-task.main" />
+        <module name="Recipes.Recipes-task-build-test-results.test" />
         <module name="Recipes.util.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
+      <module name="Recipes.Recipes-task-build-classes-java.main" target="11" />
+      <module name="Recipes.Recipes-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Recipes-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Recipes-task-build-reports-tests.main" target="11" />
+      <module name="Recipes.Recipes-task-build-test-results.main" target="11" />
+      <module name="Recipes.Recipes-task-build-tmp.main" target="11" />
       <module name="Recipes.Recipes-task.main" target="11" />
+      <module name="Recipes.Topics-HashMap-Countries_and_capitals.main" target="11" />
+      <module name="Recipes.Topics-HashMap-The_same_pairs.main" target="11" />
+      <module name="Recipes.Topics-HashMap-Theory.main" target="11" />
+      <module name="Recipes.Topics-HashMap-When_to_use.main" target="11" />
+      <module name="Recipes.Topics-Interface-Area_of_a_circle.main" target="11" />
+      <module name="Recipes.Topics-Interface-Compact_strings_with_AsciiCharSequence.main" target="11" />
+      <module name="Recipes.Topics-Interface-Implementing_an_interface.main" target="11" />
+      <module name="Recipes.Topics-Interface-Interface_methods.main" target="11" />
+      <module name="Recipes.Topics-Interface-Marker_interface.main" target="11" />
+      <module name="Recipes.Topics-Interface-Mutable_geometric_shapes.main" target="11" />
+      <module name="Recipes.Topics-Interface-Properties_of_methods.main" target="11" />
+      <module name="Recipes.Topics-Interface-Statements.main" target="11" />
+      <module name="Recipes.Topics-Interface-Theory.main" target="11" />
+      <module name="Recipes.Topics-Interface-What_can_an_interface_have.main" target="11" />
+      <module name="Recipes.Topics-Interface-What_does_an_interface_define.main" target="11" />
+      <module name="Recipes.Topics-Interface-Which_methods_must_be_overridden.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Counting_words.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Determine_values_of_variables.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Displaying_pairs.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Existing_implementations.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Modifying_a_map.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_removing_of_characters.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Theory.main" target="11" />
       <module name="Recipes.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

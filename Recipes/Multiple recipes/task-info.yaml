@@ -193,20 +193,6 @@ files:
         }
     }
   learner_created: false
-- name: src/resources/static/index.html
-  visible: true
-  text: |-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Main</title>
-    </head>
-    <body>
-    <h1>Welcome!</h1>
-    </body>
-    </html>
-  learner_created: true
 - name: src/recipes/recipe/Recipe.java
   visible: true
   text: |-
@@ -249,16 +235,21 @@ files:
         public Recipe getRecipe() { return currentRecipe; }
     }
   learner_created: true
+- name: src/recipes/recipe/RecipeNotFoundException.java
+  visible: true
+  learner_created: true
+- name: src/recipes/Main.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13089#comment
 status: Failed
 feedback:
   message: |-
-    Wrong answer in test #2
+    Wrong answer in test #1
 
-    POST /api/recipe/new should respond with status code 200, responded: 404
+    GET /api/recipe/2147483642 should respond with status code 404, responded: 200
 
     Response body:
-    {&quot;timestamp&quot;:&quot;2022-07-10T20:57:39.519+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;path&quot;:&quot;/api/recipe/new&quot;}
 
     Please find below the output of your program during this failed test.
 
@@ -272,18 +263,18 @@ feedback:
      =========|_|==============|___/=/_/_/_/
      :: Spring Boot ::                (v2.5.6)
 
-    2022-07-10 23:57:36.015  INFO 6724 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.2 on KHABIB with PID 6724 (started by habib in C:\Users\habib\Downloads\Recipes\Recipes\task)
-    2022-07-10 23:57:36.015  INFO 6724 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
-    2022-07-10 23:57:37.732  INFO 6724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
-    2022-07-10 23:57:37.748  INFO 6724 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-    2022-07-10 23:57:37.748  INFO 6724 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-    2022-07-10 23:57:37.864  INFO 6724 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-    2022-07-10 23:57:37.864  INFO 6724 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1771 ms
-    2022-07-10 23:57:38.814  INFO 6724 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
-    2022-07-10 23:57:38.883  INFO 6724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path &#39;&#39;
-    2022-07-10 23:57:38.914  INFO 6724 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 3.414 seconds (JVM running for 4.367)
-    2022-07-10 23:57:39.337  INFO 6724 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
-    2022-07-10 23:57:39.337  INFO 6724 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
-    2022-07-10 23:57:39.337  INFO 6724 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-  time: Sun, 10 Jul 2022 20:57:39 UTC
-record: -1
+    2022-07-14 22:59:09.382  INFO 1580 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.2 on KHABIB with PID 1580 (started by habib in C:\Users\habib\Downloads\Recipes\Recipes\task)
+    2022-07-14 22:59:09.382  INFO 1580 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+    2022-07-14 22:59:11.160  INFO 1580 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+    2022-07-14 22:59:11.160  INFO 1580 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+    2022-07-14 22:59:11.160  INFO 1580 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+    2022-07-14 22:59:11.276  INFO 1580 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+    2022-07-14 22:59:11.276  INFO 1580 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1805 ms
+    2022-07-14 22:59:12.226  INFO 1580 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
+    2022-07-14 22:59:12.295  INFO 1580 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path &#39;&#39;
+    2022-07-14 22:59:12.310  INFO 1580 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 3.454 seconds (JVM running for 4.407)
+    2022-07-14 22:59:12.765  INFO 1580 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
+    2022-07-14 22:59:12.765  INFO 1580 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
+    2022-07-14 22:59:12.765  INFO 1580 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+  time: Thu, 14 Jul 2022 19:59:13 UTC
+record: 2

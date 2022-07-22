@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 @RestController
 public class Recipe {
 
     private String name;
     private String description;
-    private String ingredients;
-    private String directions;
-
+    private String[] ingredients;
+    private String[] directions;
 }

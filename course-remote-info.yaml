@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/529086/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sun, 10 Jul 2022 17:15:07 UTC
+update_date: Fri, 22 Jul 2022 07:44:07 UTC
 stages:
 - id: 917
   step: 13088
@@ -32,12 +32,12 @@ topics:
     theory_id: 10996
   - title: Introduction to Operating systems
     theory_id: 9704
+  - title: Computer algorithms
+    theory_id: 16547
   - title: World Wide Web
     theory_id: 6633
   - title: HyperText Transfer Protocol
     theory_id: 6569
-  - title: Computer algorithms
-    theory_id: 16547
   - title: The big O notation
     theory_id: 16699
   - title: Best, average and worst cases
@@ -172,12 +172,14 @@ topics:
     theory_id: 7917
   - title: Dependency management
     theory_id: 5076
-  - title: Web development
-    theory_id: 13931
   - title: Pseudocode
     theory_id: 15090
   - title: Pseudocode basics
     theory_id: 19510
+  - title: Complex constructions in pseudocode
+    theory_id: 20922
+  - title: Web development
+    theory_id: 13931
   - title: Fixed-size array
     theory_id: 20078
   - title: Dynamic array
@@ -340,12 +342,12 @@ topics:
     theory_id: 3620
   - title: Functional interfaces
     theory_id: 11636
-  - title: Generic methods
-    theory_id: 3606
   - title: Standard functional interfaces
     theory_id: 3623
   - title: Optional
     theory_id: 9699
+  - title: Generic methods
+    theory_id: 3606
   - title: Anonymous classes
     theory_id: 11896
   - title: Default methods

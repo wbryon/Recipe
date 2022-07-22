@@ -170,12 +170,6 @@ files:
         }
     }
   learner_created: false
-- name: src/resources/static/index.html
-  visible: true
-  learner_created: true
-- name: src/recipes/recipe/RecipeService.java
-  visible: true
-  learner_created: true
 - name: src/recipes/recipe/Recipe.java
   visible: true
   learner_created: true
@@ -185,9 +179,15 @@ files:
 - name: src/recipes/recipe/RecipeServiceInterface.java
   visible: true
   learner_created: true
+- name: src/resources/static/index.html
+  visible: true
+  learner_created: true
+- name: src/recipes/recipe/RecipeService.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13088#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sun, 10 Jul 2022 17:58:38 UTC
+  time: Sun, 10 Jul 2022 22:22:19 UTC
 record: 1
