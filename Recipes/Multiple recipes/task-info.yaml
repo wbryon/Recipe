@@ -193,7 +193,10 @@ files:
         }
     }
   learner_created: false
-- name: src/recipes/recipe/Recipe.java
+- name: src/recipes/controller/RecipeNotFoundException.java
+  visible: true
+  learner_created: true
+- name: src/recipes/entity/Recipe.java
   visible: true
   text: |-
     package recipes.recipe;
@@ -216,7 +219,10 @@ files:
 
     }
   learner_created: true
-- name: src/recipes/recipe/RecipeController.java
+- name: src/recipes/entity/RecipeID.java
+  visible: true
+  learner_created: true
+- name: src/recipes/controller/RecipeController.java
   visible: true
   text: |-
     package recipes.recipe;
@@ -235,10 +241,7 @@ files:
         public Recipe getRecipe() { return currentRecipe; }
     }
   learner_created: true
-- name: src/recipes/recipe/RecipeNotFoundException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/Main.java
+- name: src/recipes/entity/Entity.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13089#comment
